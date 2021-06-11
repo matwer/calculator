@@ -55,6 +55,10 @@ public class Calculator implements Serializable {
 			this.results = this.operandOne + this.operandTwo;
 		} else if (this.operator == "-") {
 			this.results = this.operandOne - this.operandTwo;
+		} else if (this.operator == "*") {
+			this.results = this.operandOne * this.operandTwo;
+		} else if (this.operator == "/") {
+			this.results = this.operandOne / this.operandTwo;
 		}
 		return this.results;
 	}
